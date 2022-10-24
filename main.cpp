@@ -19,9 +19,19 @@ int main() {
     int avg1 = (grade[r][1] * 0.2 + grade[r][2] * 0.3 + grade[r][3] * 0.3 + grade[r][4] * 0.2) / 4;
     cout << setw(5) << avg1;
     // code for 8th column
-    if(grade[r][c] < grade[r][]){
-      grade[r][c] = grade [r][];
+    int smallest;
+    if(grade[r][1] < smallest){
+      smallest = grade[r][1];
       }
+    else if (grade[r][2] < smallest){
+      smallest = grade[r][2];
+      }
+    else if (grade[r][3] < smallest){
+      smallest = grade[r][3];
+      }
+    else (grade[r][4] < smallest){
+      smallest = grade[r][4];
+      
       }
     int avg2 = (grade[r][1] + grade[r][2] + grade[r][3] + grade[r][4]) / 4;
     cout << setw(5) << avg2;

@@ -18,6 +18,13 @@ int main() {
     cout << setw(5) << avg;
     int avg1 = (grade[r][1] * 0.2 + grade[r][2] * 0.3 + grade[r][3] * 0.3 + grade[r][4] * 0.2) / 4;
     cout << setw(5) << avg1;
+    // code for 8th column
+    if(grade[r][c] < grade[r][]){
+      grade[r][c] = grade [r][];
+      }
+      }
+    int avg2 = (grade[r][1] + grade[r][2] + grade[r][3] + grade[r][4]) / 4;
+    cout << setw(5) << avg2;
     
     cout << endl;
   }
